@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/categories/</link>
+    <description>Recent content in Categories on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Aug 2021 20:49:47 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>build_blogs</title>
+      <link>https://angaoanzj.github.io/categories/build_blogs/</link>
+      <pubDate>Wed, 18 Aug 2021 20:49:47 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/categories/build_blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://angaoanzj.github.io/categories/sql/</link>
+      <pubDate>Sun, 18 Jul 2021 13:34:10 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/categories/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://angaoanzj.github.io/categories/python/</link>
+      <pubDate>Tue, 06 Jul 2021 14:03:24 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>search-job</title>
+      <link>https://angaoanzj.github.io/categories/search-job/</link>
+      <pubDate>Mon, 05 Jul 2021 00:25:02 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/categories/search-job/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep_learning</title>
+      <link>https://angaoanzj.github.io/categories/deep_learning/</link>
+      <pubDate>Sun, 04 Jul 2021 21:07:36 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/categories/deep_learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

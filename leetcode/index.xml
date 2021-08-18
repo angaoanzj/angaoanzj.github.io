@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>刷题 on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/leetcode/</link>
+    <description>Recent content in 刷题 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Jun 2021 12:44:18 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Sort Algorithm</title>
+      <link>https://angaoanzj.github.io/leetcode/algorithm-sort/</link>
+      <pubDate>Tue, 06 Jul 2021 14:03:24 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/leetcode/algorithm-sort/</guid>
+      <description>This is dir1/leetcode Day1.md
+排序 快速排序 https://www.runoob.com/python3/python-quicksort.html
+主要思想： 基于分治 （1）确定分界点，取左边界q[l]或q[lr/2]或q[r]随机 （2）调整区间 小与等于x在左边，大于等于x在右边 （3）递归处理左右两段
+输入数据较大时，选择比较快的输入方式（python 查一下） java 不能用scanner 用bufferread c里面用scanf 归并排序 二分 整数二分 浮点数二分 方法： 1.背代码模版，默写调试通过 2.看主要思想，默写，以模版题，题目重复3-5次</description>
+    </item>
+    
+    <item>
+      <title>DP</title>
+      <link>https://angaoanzj.github.io/leetcode/dp/</link>
+      <pubDate>Sat, 03 Jul 2021 22:37:47 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/leetcode/dp/</guid>
+      <description>背包问题 不一定要装满背包
+0-1 背包问题 给我们n个物品，从容量为v的背包，每个物品两个属性，体积vi和价值wi，每件物品最多只能用一次，背包能装得下的情况下，最大价值是多少？
+完全背包 每件物品可以有无限个
+多重背包 每个物品最多有si个，si不同
+多重背包&amp;ndash;优化版 分组背包 有N组，每组物品有若干个，有限制条件，如选了苹果不能选香蕉
+方法：
+状态表示：几维度表示，每个状态是什么 f(i,j)
+两个角度考虑：
+ 集合是什么（如：在0-1背包中所有选法对集合）， 满足两个条件：   只从前i个物品当中选择 选出来对物品对总体积 小于等于j  f(i,j)表示什么属性（一般是数，表示最大值/最小值/数量） 状态计算：如果把状态算出来  DP优化： 一般对dp问题对代码/计算方程进行等价变形， 先考虑最基本的形式</description>
+    </item>
+    
+    <item>
+      <title>Leetcode Day1</title>
+      <link>https://angaoanzj.github.io/leetcode/leetcode-day1/</link>
+      <pubDate>Thu, 24 Jun 2021 11:58:42 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/leetcode/leetcode-day1/</guid>
+      <description>This is dir1/leetcode Day1.md
+排序 快速排序 主要思想： 基于分治 （1）确定分界点，取左边界q[l]或q[lr/2]或q[r]随机 （2）调整区间 小与等于x在左边，大于等于x在右边 （3）递归处理左右两段
+ 归并排序 二分 整数二分 浮点数二分 </description>
+    </item>
+    
+  </channel>
+</rss>

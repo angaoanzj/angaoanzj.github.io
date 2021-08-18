@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Aug 2021 20:49:47 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git_problem</title>
+      <link>https://angaoanzj.github.io/dir1/git_problem/</link>
+      <pubDate>Wed, 18 Aug 2021 20:49:47 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/git_problem/</guid>
+      <description>Git Problem llan@192-168-1-132 public % git push --set-upstream origin master To https://github.com/angaoanzj/angaoanzj.github.io.git ! [rejected] master -&amp;gt; master (fetch first) error: failed to push some refs to &#39;https://github.com/angaoanzj/angaoanzj.github.io.git&#39; hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing hint: to the same ref. You may want to first integrate the remote changes hint: (e.g., &#39;git pull ...&#39;) before pushing again.</description>
+    </item>
+    
+    <item>
+      <title>Add_taxonomies</title>
+      <link>https://angaoanzj.github.io/dir1/add_taxonomies/</link>
+      <pubDate>Wed, 18 Aug 2021 20:45:05 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/add_taxonomies/</guid>
+      <description>This is for how to group blogs. Just add tags in the top of the file and add make some adjustments in the &amp;lsquo;config.toml&amp;rsquo;
+Reference link: https://www.youtube.com/watch?v=pCPCQgqC8RA</description>
+    </item>
+    
+    <item>
+      <title>Crawl</title>
+      <link>https://angaoanzj.github.io/recommend_system/crawl/</link>
+      <pubDate>Sun, 01 Aug 2021 23:35:34 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/recommend_system/crawl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>https://angaoanzj.github.io/sql/install_sql/</link>
+      <pubDate>Sun, 18 Jul 2021 13:34:10 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/sql/install_sql/</guid>
+      <description>安装mysql  下载：https://dev.mysql.com/downloads/mysql/     llan@192-168-1-132 ~ % mysql -u root -p zsh: command not found: mysql llan@192-168-1-132 ~ % cd /Users/llan/miniforge3/pkgs/jedi-0.18.0-py38h10201cd_2/lib/python3.8/site-packages/jedi/third_party/django-stubs/django-stubs/db/backends/mysql llan@192-168-1-132 mysql % vim ~/.bashrc llan@192-168-1-132 mysql % source ~/.bashrc llan@192-168-1-132 mysql % vim ~/.bash_profile llan@192-168-1-132 mysql % source ~/.bash_profile #添加：i,保存退出：:wq export PATH=$PATH:/usr/locol/mysql/bin export PATH=$PATH:/usr/local/mysql/support-files llan@192-168-1-132 mysql % mysql ERROR 1045 (28000): Access denied for user &#39;llan&#39;@&#39;localhost&#39; (using password: NO) llan@192-168-1-132 mysql % mysql -u root -p Enter password: Welcome to the MySQL monitor.</description>
+    </item>
+    
+    <item>
+      <title>Basic Sort Algorithm</title>
+      <link>https://angaoanzj.github.io/leetcode/algorithm-sort/</link>
+      <pubDate>Tue, 06 Jul 2021 14:03:24 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/leetcode/algorithm-sort/</guid>
+      <description>This is dir1/leetcode Day1.md
+排序 快速排序 https://www.runoob.com/python3/python-quicksort.html
+主要思想： 基于分治 （1）确定分界点，取左边界q[l]或q[lr/2]或q[r]随机 （2）调整区间 小与等于x在左边，大于等于x在右边 （3）递归处理左右两段
+输入数据较大时，选择比较快的输入方式（python 查一下） java 不能用scanner 用bufferread c里面用scanf 归并排序 二分 整数二分 浮点数二分 方法： 1.背代码模版，默写调试通过 2.看主要思想，默写，以模版题，题目重复3-5次</description>
+    </item>
+    
+    <item>
+      <title>Project Description Details</title>
+      <link>https://angaoanzj.github.io/job/resume/</link>
+      <pubDate>Mon, 05 Jul 2021 00:25:02 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/job/resume/</guid>
+      <description>https://zhuanlan.zhihu.com/p/44746720
+注意简历描述： 一个不好的例子： 本人项目中使用了YOLO，YOLO V3，SSD，DSSD，Faster RCNN，Deformable ConvNets等目标检测方法 首先，这里一口气列出了这么多关键词，面试官可以在面试过程中深入考察任何一个方法，至少以我面试经验而言，极少能有人做到如此融会贯通。其次，这些关键词并不是同一个逻辑概念，例如Deformable ConvNets是针对前面这些目标检测的方法改进，而不是一个独立的方法。这样并列很容易让面试官怀疑候选人究竟有多了解这些名词。
+一个好的例子（请注意逻辑而不是具体内容）： 本人首先尝试了YOLO等one stage检测器，但是因误检较多，后尝试了Faster RCNN，并加入了Deformable Conv增强尺度不变性，OHEM处理难样本。后续针对问题中XXX的特点，提出了YYY的解决办法。 这样一段描述就很有层次地描述出了项目的推进过程，遇到的问题和改进方案，以及自己提出的改进。
+第二点不需要事事巨细，把太多基础的练手的项目写上。见过太多人把一些很简单的课程作业，或者MNIST分类作为实践项目写上。这种toy project不会对简历有任何加分，反而会让HR和面试官怀疑候选人没什么货还要硬凑。还有一部分同学试图把每一个细节写清，细致到参数怎么调试的。简历不是技术报告，而是对自身经历和能力的快速传达。</description>
+    </item>
+    
+    <item>
+      <title>Pytorch安装</title>
+      <link>https://angaoanzj.github.io/deep_learn/install_pytorch/</link>
+      <pubDate>Sun, 04 Jul 2021 21:07:36 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/deep_learn/install_pytorch/</guid>
+      <description>llan@192-168-1-132 ~ % conda info -e # conda environments: # base * /Users/llan/miniforge3 py38 /Users/llan/miniforge3/envs/py38 ##创建pytorch环境 llan@192-168-1-132 ~ % sudo conda create -n mytorch numpy matplotlib pandas python=3.9 Executing transaction: done # # To activate this environment, use # # $ conda activate mytorch # # To deactivate an active environment, use # # $ conda deactivate #检查python架构版本 llan@192-168-1-132 ~ % file /Users/llan/miniforge3/envs/mytorch/bin/python /Users/llan/miniforge3/envs/mytorch/bin/python: Mach-O 64-bit executable arm64 #查看CPU的架构 llan@192-168-1-132 ~ % /usr/sbin/sysctl -n machdep.</description>
+    </item>
+    
+    <item>
+      <title>DP</title>
+      <link>https://angaoanzj.github.io/leetcode/dp/</link>
+      <pubDate>Sat, 03 Jul 2021 22:37:47 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/leetcode/dp/</guid>
+      <description>背包问题 不一定要装满背包
+0-1 背包问题 给我们n个物品，从容量为v的背包，每个物品两个属性，体积vi和价值wi，每件物品最多只能用一次，背包能装得下的情况下，最大价值是多少？
+完全背包 每件物品可以有无限个
+多重背包 每个物品最多有si个，si不同
+多重背包&amp;ndash;优化版 分组背包 有N组，每组物品有若干个，有限制条件，如选了苹果不能选香蕉
+方法：
+状态表示：几维度表示，每个状态是什么 f(i,j)
+两个角度考虑：
+ 集合是什么（如：在0-1背包中所有选法对集合）， 满足两个条件：   只从前i个物品当中选择 选出来对物品对总体积 小于等于j  f(i,j)表示什么属性（一般是数，表示最大值/最小值/数量） 状态计算：如果把状态算出来  DP优化： 一般对dp问题对代码/计算方程进行等价变形， 先考虑最基本的形式</description>
+    </item>
+    
+    <item>
+      <title>python basic</title>
+      <link>https://angaoanzj.github.io/python/py2-basics/</link>
+      <pubDate>Sat, 03 Jul 2021 18:12:09 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/py2-basics/</guid>
+      <description>Data Type and Variables multiple print statements to print in the same line, we can use the following code:
+print(&amp;quot;Hello&amp;quot;, end=&amp;quot;&amp;quot;) The amount of memory an integer occupies depends on its value. For example, 0 will take up 24 bytes whereas 1 would occupy 28 bytes.
+A float occupies 24 bytes of memory.
+complex() is used to create complex numbers. It requires two values. The first one will be the real part of the complex number, while the second value will be the imaginary part.</description>
+    </item>
+    
+    <item>
+      <title>python Introduction</title>
+      <link>https://angaoanzj.github.io/python/py1-introduction/</link>
+      <pubDate>Sat, 03 Jul 2021 00:34:34 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/py1-introduction/</guid>
+      <description>Introduction Procedural programming In procedural programming, a program is divided into smaller parts called methods. These methods are the basic entities used to construct a program. One of the main advantages of procedural programming is code reusability. However, the implementation of a complex real-world scenario becomes a difficult and unwieldy task.
+Object-oriented programming Object-oriented programming, also referred to as OOP, is a programming paradigm that includes, or relies, on the concept of classes and objects.</description>
+    </item>
+    
+    <item>
+      <title>Python - Note1</title>
+      <link>https://angaoanzj.github.io/python/py-note1/</link>
+      <pubDate>Thu, 01 Jul 2021 16:32:28 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/py-note1/</guid>
+      <description>字符串 单引号‘ ’ ，双引号 &amp;quot; &amp;quot; , 三引号 &#39;&#39;&#39; &#39;&#39;&#39; 双引号中可以嵌套单引号，三引号中可以包含单引号和双引号
+空值 用None表示，在python中
+Python 允许同时为多个变量/对象赋值 a = b = c = 1 a, b, c = 1, 2, &amp;quot;liangdianshui&amp;quot; List &amp;gt;&amp;gt;&amp;gt; list = [&#39;1&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;] &amp;gt;&amp;gt;&amp;gt; list[:] [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;] append()添加，只能添加一个对象 list.extend(seq)追加list
+&amp;gt;&amp;gt;&amp;gt; list.extend([&#39;2&#39;,&#39;7&#39;]) &amp;gt;&amp;gt;&amp;gt; list [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;2&#39;, &#39;7&#39;] &amp;gt;&amp;gt;&amp;gt; list.append(&#39;6&#39;) &amp;gt;&amp;gt;&amp;gt; list [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;2&#39;, &#39;7&#39;, &#39;6&#39;] &amp;gt;&amp;gt;&amp;gt; list.append([&#39;3&#39;,&#39;6&#39;]) &amp;gt;&amp;gt;&amp;gt; list [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;2&#39;, &#39;7&#39;, &#39;6&#39;, [&#39;3&#39;, &#39;6&#39;]] del list[3] #删除list的元素</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://angaoanzj.github.io/error/python/</link>
+      <pubDate>Fri, 25 Jun 2021 01:12:02 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/error/python/</guid>
+      <description>What is UnboundLocalError: local variable referenced before assignment? def calculate_grade(grade): if grade &amp;gt; 80: letter = &amp;quot;A&amp;quot; elif grade &amp;gt; 70: letter = &amp;quot;B&amp;quot; elif grade &amp;gt; 60: letter = &amp;quot;C&amp;quot; elif grade &amp;gt; 50: letter = &amp;quot;D&amp;quot; return letter print(calculate_grade(numerical)) cause error Traceback (most recent call last): File &amp;quot;main.py&amp;quot;, line 15, in &amp;lt;module&amp;gt; print(calculate_grade(numerical)) File &amp;quot;main.py&amp;quot;, line 13, in calculate_grade return letter UnboundLocalError: local variable &#39;letter&#39; referenced before assignment Solution def calculate_grade(grade): if grade &amp;gt; 80: letter = &amp;quot;A&amp;quot; elif grade &amp;gt; 70: letter = &amp;quot;B&amp;quot; elif grade &amp;gt; 60: letter = &amp;quot;C&amp;quot; elif grade &amp;gt; 50: letter = &amp;quot;D&amp;quot; else: letter = &amp;quot;F&amp;quot; return letter reference: https://careerkarma.</description>
+    </item>
+    
+    <item>
+      <title>Regex</title>
+      <link>https://angaoanzj.github.io/data_ingestion/regex/</link>
+      <pubDate>Fri, 25 Jun 2021 00:19:14 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/data_ingestion/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Request</title>
+      <link>https://angaoanzj.github.io/data_ingestion/request/</link>
+      <pubDate>Thu, 24 Jun 2021 22:55:45 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/data_ingestion/request/</guid>
+      <description>Making web requests Parsing HTML with BeautifulSoup from bs4 import BeautifulSoup soup = BeautifulSoup(r.content, &#39;html.parser&#39;) soup object defines a bunch of methods
+reference link: a simple sample for crawling</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://angaoanzj.github.io/about/</link>
+      <pubDate>Thu, 24 Jun 2021 14:08:31 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/about/</guid>
+      <description>This is for recording what I have learn or something I hope to share.
+Repetition can be boring and tedious, which is why so few people ever master anything.
+reference link: https://medium.com/@lyric09220/what-is-the-best-path-to-learn-data-mining-edf4da6c6823</description>
+    </item>
+    
+    <item>
+      <title>Input and Output</title>
+      <link>https://angaoanzj.github.io/leetcode/notes/note1/</link>
+      <pubDate>Thu, 24 Jun 2021 12:50:31 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/leetcode/notes/note1/</guid>
+      <description>判题系统的输入输出 1 对于&amp;lt;剑指Offer&amp;gt;这种有函数定义的题目，你只要完成函数，返回相关的值就可以，不需要处理任何输入输出，不要在函数里输出任何东西。 2 对于传统ACM的OJ模式题目，你的程序需要stdin（标准输入）读取输入，然后stdout（标准输出）来打印结果，举个例子，你可以使用c语言的scanf或者c++的cin来读取输入，然后使用c语言的printf或者c++的cout来输出结果。代码禁止读取和写入任何文件，否则判题系统将会返回运行错误。 OJ一次处理多个case，所以代码需要循环处理，一般通过while循环来出来多个case。以下是A+B题目的样例代码，
+import sys for line in sys.stdin: a = line.split() print(int(a[0]) + int(a[1])) 判题系统状态 等待评测: 评测系统还没有评测到这个提交，请稍候 正在评测: 评测系统正在评测，稍候会有结果 编译错误:您提交的代码无法完成编译，点击“编译错误”可以看到编译器输出的错误信息 答案正确: 恭喜！您通过了这道题 运行错误: 您提交的程序在运行时发生错误,可能是空指针 部分正确: 您的代码只通过了部分测试点，继续努力！ 格式错误: 您的程序输出的格式不符合要求（比如空格和换行与要求不一致） 答案错误: 您的程序未能对评测系统的数据返回正确的结果 运行超时: 您的程序未能在规定时间内运行结束 内存超限: 您的程序使用了超过限制的内存 异常退出: 您的程序运行时发生了错误 返回非零: 您的程序结束时返回值非 0，如果使用 C 或 C++ 语言要保证 int main 函数最终 return 0 浮点错误: 您的程序运行时发生浮点错误，比如遇到了除以 0 的情况 段错误 : 您的程序发生段错误，可能是数组越界，堆栈溢出（比如，递归调用层数太多）等情况引起 多种错误: 您的程序对不同的测试点出现不同的错误 内部错误: 请仔细检查你的代码是否有未考虑到的异常情况，例如非法调用、代码不符合规范等。</description>
+    </item>
+    
+    <item>
+      <title>Note1</title>
+      <link>https://angaoanzj.github.io/dir1/dir2/note1/</link>
+      <pubDate>Thu, 24 Jun 2021 12:50:31 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/dir2/note1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leetcode Day1</title>
+      <link>https://angaoanzj.github.io/leetcode/leetcode-day1/</link>
+      <pubDate>Thu, 24 Jun 2021 11:58:42 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/leetcode/leetcode-day1/</guid>
+      <description>This is dir1/leetcode Day1.md
+排序 快速排序 主要思想： 基于分治 （1）确定分界点，取左边界q[l]或q[lr/2]或q[r]随机 （2）调整区间 小与等于x在左边，大于等于x在右边 （3）递归处理左右两段
+ 归并排序 二分 整数二分 浮点数二分 </description>
+    </item>
+    
+    <item>
+      <title>Hugo_static_site</title>
+      <link>https://angaoanzj.github.io/dir1/hugo_static_site/</link>
+      <pubDate>Thu, 24 Jun 2021 11:56:07 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/hugo_static_site/</guid>
+      <description>基本的做法
+llan@192-168-1-132 myblog % hugo new hugo_static_site.md /Users/llan/myblog/content/hugo_static_site.md created llan@192-168-1-132 myblog % hugo new dir1/leetcode-day1.md /Users/llan/myblog/content/dir1/leetcode-day1.md created ##应首先创建dir1后再进行子文件夹下内容的创建 llan@192-168-1-132 myblog % hugo new dir1/dir2/_index.md /Users/llan/myblog/content/dir1/dir2/_index.md created llan@192-168-1-132 myblog % hugo new dir1/dir2/note1.md /Users/llan/myblog/content/dir1/dir2/note1.md created ## 若未用模版启动显示drafts llan@192-168-1-132 myblog % hugo server -D ## 使用模版显示drafts llan@192-168-1-132 myblog % hugo server -t m10c --buildDrafts 参考链接 https://www.youtube.com/watch?v=0GZxidrlaRM https://github.com/vaga/hugo-theme-m10c</description>
+    </item>
+    
+    <item>
+      <title>Firstblog -- 搭建博客并部署</title>
+      <link>https://angaoanzj.github.io/dir1/firstblog/</link>
+      <pubDate>Thu, 24 Jun 2021 02:11:22 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/firstblog/</guid>
+      <description>搭建博客 安装hugo llan@192-168-1-132 ~ % brew install hugo llan@192-168-1-132 ~ % hugo version llan@192-168-1-132 ~ % hugo new site myblog llan@192-168-1-132 ~ % cd myblog/ llan@192-168-1-132 myblog % ls -l llan@192-168-1-132 myblog % pwd /Users/llan/myblog 下载模版并新建文章 llan@192-168-1-132 myblog % git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c #启动hugo llan@192-168-1-132 myblog % hugo server -t m10c --buildDrafts #创建文章 llan@192-168-1-132 myblog % hugo new post/firstblog.md llan@192-168-1-132 myblog % ls -l total 8 drwxr-xr-x 3 llan staff 96 Jun 23 23:59 archetypes -rw-r--r-- 1 llan staff 82 Jun 23 23:59 config.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://angaoanzj.github.io/python/pic/8.3-week2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/pic/8.3-week2/</guid>
+      <description>8.3 week2
+splunk
+user and entity behavior
+Capabilities
+a series of single line event
+create graph/reports</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://angaoanzj.github.io/python/pic/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/pic/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B/</guid>
+      <description>特征工程：
+特征抽取：</description>
+    </item>
+    
+  </channel>
+</rss>

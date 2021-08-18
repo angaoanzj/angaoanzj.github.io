@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deep_learning on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/categories/deep_learning/</link>
+    <description>Recent content in deep_learning on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jul 2021 21:07:36 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/categories/deep_learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pytorch安装</title>
+      <link>https://angaoanzj.github.io/deep_learn/install_pytorch/</link>
+      <pubDate>Sun, 04 Jul 2021 21:07:36 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/deep_learn/install_pytorch/</guid>
+      <description>llan@192-168-1-132 ~ % conda info -e # conda environments: # base * /Users/llan/miniforge3 py38 /Users/llan/miniforge3/envs/py38 ##创建pytorch环境 llan@192-168-1-132 ~ % sudo conda create -n mytorch numpy matplotlib pandas python=3.9 Executing transaction: done # # To activate this environment, use # # $ conda activate mytorch # # To deactivate an active environment, use # # $ conda deactivate #检查python架构版本 llan@192-168-1-132 ~ % file /Users/llan/miniforge3/envs/mytorch/bin/python /Users/llan/miniforge3/envs/mytorch/bin/python: Mach-O 64-bit executable arm64 #查看CPU的架构 llan@192-168-1-132 ~ % /usr/sbin/sysctl -n machdep.</description>
+    </item>
+    
+  </channel>
+</rss>

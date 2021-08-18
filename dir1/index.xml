@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dir2 on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/dir1/</link>
+    <description>Recent content in Dir2 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Jun 2021 12:44:18 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/dir1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git_problem</title>
+      <link>https://angaoanzj.github.io/dir1/git_problem/</link>
+      <pubDate>Wed, 18 Aug 2021 20:49:47 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/git_problem/</guid>
+      <description>Git Problem llan@192-168-1-132 public % git push --set-upstream origin master To https://github.com/angaoanzj/angaoanzj.github.io.git ! [rejected] master -&amp;gt; master (fetch first) error: failed to push some refs to &#39;https://github.com/angaoanzj/angaoanzj.github.io.git&#39; hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing hint: to the same ref. You may want to first integrate the remote changes hint: (e.g., &#39;git pull ...&#39;) before pushing again.</description>
+    </item>
+    
+    <item>
+      <title>Add_taxonomies</title>
+      <link>https://angaoanzj.github.io/dir1/add_taxonomies/</link>
+      <pubDate>Wed, 18 Aug 2021 20:45:05 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/add_taxonomies/</guid>
+      <description>This is for how to group blogs. Just add tags in the top of the file and add make some adjustments in the &amp;lsquo;config.toml&amp;rsquo;
+Reference link: https://www.youtube.com/watch?v=pCPCQgqC8RA</description>
+    </item>
+    
+    <item>
+      <title>Hugo_static_site</title>
+      <link>https://angaoanzj.github.io/dir1/hugo_static_site/</link>
+      <pubDate>Thu, 24 Jun 2021 11:56:07 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/hugo_static_site/</guid>
+      <description>基本的做法
+llan@192-168-1-132 myblog % hugo new hugo_static_site.md /Users/llan/myblog/content/hugo_static_site.md created llan@192-168-1-132 myblog % hugo new dir1/leetcode-day1.md /Users/llan/myblog/content/dir1/leetcode-day1.md created ##应首先创建dir1后再进行子文件夹下内容的创建 llan@192-168-1-132 myblog % hugo new dir1/dir2/_index.md /Users/llan/myblog/content/dir1/dir2/_index.md created llan@192-168-1-132 myblog % hugo new dir1/dir2/note1.md /Users/llan/myblog/content/dir1/dir2/note1.md created ## 若未用模版启动显示drafts llan@192-168-1-132 myblog % hugo server -D ## 使用模版显示drafts llan@192-168-1-132 myblog % hugo server -t m10c --buildDrafts 参考链接 https://www.youtube.com/watch?v=0GZxidrlaRM https://github.com/vaga/hugo-theme-m10c</description>
+    </item>
+    
+    <item>
+      <title>Firstblog -- 搭建博客并部署</title>
+      <link>https://angaoanzj.github.io/dir1/firstblog/</link>
+      <pubDate>Thu, 24 Jun 2021 02:11:22 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/dir1/firstblog/</guid>
+      <description>搭建博客 安装hugo llan@192-168-1-132 ~ % brew install hugo llan@192-168-1-132 ~ % hugo version llan@192-168-1-132 ~ % hugo new site myblog llan@192-168-1-132 ~ % cd myblog/ llan@192-168-1-132 myblog % ls -l llan@192-168-1-132 myblog % pwd /Users/llan/myblog 下载模版并新建文章 llan@192-168-1-132 myblog % git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c #启动hugo llan@192-168-1-132 myblog % hugo server -t m10c --buildDrafts #创建文章 llan@192-168-1-132 myblog % hugo new post/firstblog.md llan@192-168-1-132 myblog % ls -l total 8 drwxr-xr-x 3 llan staff 96 Jun 23 23:59 archetypes -rw-r--r-- 1 llan staff 82 Jun 23 23:59 config.</description>
+    </item>
+    
+  </channel>
+</rss>

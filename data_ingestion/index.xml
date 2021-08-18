@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data_ingestions on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/data_ingestion/</link>
+    <description>Recent content in Data_ingestions on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jun 2021 00:19:14 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/data_ingestion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regex</title>
+      <link>https://angaoanzj.github.io/data_ingestion/regex/</link>
+      <pubDate>Fri, 25 Jun 2021 00:19:14 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/data_ingestion/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Request</title>
+      <link>https://angaoanzj.github.io/data_ingestion/request/</link>
+      <pubDate>Thu, 24 Jun 2021 22:55:45 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/data_ingestion/request/</guid>
+      <description>Making web requests Parsing HTML with BeautifulSoup from bs4 import BeautifulSoup soup = BeautifulSoup(r.content, &#39;html.parser&#39;) soup object defines a bunch of methods
+reference link: a simple sample for crawling</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>error on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/tags/error/</link>
+    <description>Recent content in error on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jun 2021 01:12:02 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://angaoanzj.github.io/error/python/</link>
+      <pubDate>Fri, 25 Jun 2021 01:12:02 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/error/python/</guid>
+      <description>What is UnboundLocalError: local variable referenced before assignment? def calculate_grade(grade): if grade &amp;gt; 80: letter = &amp;quot;A&amp;quot; elif grade &amp;gt; 70: letter = &amp;quot;B&amp;quot; elif grade &amp;gt; 60: letter = &amp;quot;C&amp;quot; elif grade &amp;gt; 50: letter = &amp;quot;D&amp;quot; return letter print(calculate_grade(numerical)) cause error Traceback (most recent call last): File &amp;quot;main.py&amp;quot;, line 15, in &amp;lt;module&amp;gt; print(calculate_grade(numerical)) File &amp;quot;main.py&amp;quot;, line 13, in calculate_grade return letter UnboundLocalError: local variable &#39;letter&#39; referenced before assignment Solution def calculate_grade(grade): if grade &amp;gt; 80: letter = &amp;quot;A&amp;quot; elif grade &amp;gt; 70: letter = &amp;quot;B&amp;quot; elif grade &amp;gt; 60: letter = &amp;quot;C&amp;quot; elif grade &amp;gt; 50: letter = &amp;quot;D&amp;quot; else: letter = &amp;quot;F&amp;quot; return letter reference: https://careerkarma.</description>
+    </item>
+    
+  </channel>
+</rss>

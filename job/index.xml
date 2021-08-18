@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/job/</link>
+    <description>Recent content in Jobs on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jul 2021 00:25:02 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/job/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Description Details</title>
+      <link>https://angaoanzj.github.io/job/resume/</link>
+      <pubDate>Mon, 05 Jul 2021 00:25:02 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/job/resume/</guid>
+      <description>https://zhuanlan.zhihu.com/p/44746720
+注意简历描述： 一个不好的例子： 本人项目中使用了YOLO，YOLO V3，SSD，DSSD，Faster RCNN，Deformable ConvNets等目标检测方法 首先，这里一口气列出了这么多关键词，面试官可以在面试过程中深入考察任何一个方法，至少以我面试经验而言，极少能有人做到如此融会贯通。其次，这些关键词并不是同一个逻辑概念，例如Deformable ConvNets是针对前面这些目标检测的方法改进，而不是一个独立的方法。这样并列很容易让面试官怀疑候选人究竟有多了解这些名词。
+一个好的例子（请注意逻辑而不是具体内容）： 本人首先尝试了YOLO等one stage检测器，但是因误检较多，后尝试了Faster RCNN，并加入了Deformable Conv增强尺度不变性，OHEM处理难样本。后续针对问题中XXX的特点，提出了YYY的解决办法。 这样一段描述就很有层次地描述出了项目的推进过程，遇到的问题和改进方案，以及自己提出的改进。
+第二点不需要事事巨细，把太多基础的练手的项目写上。见过太多人把一些很简单的课程作业，或者MNIST分类作为实践项目写上。这种toy project不会对简历有任何加分，反而会让HR和面试官怀疑候选人没什么货还要硬凑。还有一部分同学试图把每一个细节写清，细致到参数怎么调试的。简历不是技术报告，而是对自身经历和能力的快速传达。</description>
+    </item>
+    
+  </channel>
+</rss>

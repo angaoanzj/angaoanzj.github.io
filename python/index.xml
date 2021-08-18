@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pythons on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/python/</link>
+    <description>Recent content in Pythons on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 18:12:09 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python basic</title>
+      <link>https://angaoanzj.github.io/python/py2-basics/</link>
+      <pubDate>Sat, 03 Jul 2021 18:12:09 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/py2-basics/</guid>
+      <description>Data Type and Variables multiple print statements to print in the same line, we can use the following code:
+print(&amp;quot;Hello&amp;quot;, end=&amp;quot;&amp;quot;) The amount of memory an integer occupies depends on its value. For example, 0 will take up 24 bytes whereas 1 would occupy 28 bytes.
+A float occupies 24 bytes of memory.
+complex() is used to create complex numbers. It requires two values. The first one will be the real part of the complex number, while the second value will be the imaginary part.</description>
+    </item>
+    
+    <item>
+      <title>python Introduction</title>
+      <link>https://angaoanzj.github.io/python/py1-introduction/</link>
+      <pubDate>Sat, 03 Jul 2021 00:34:34 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/py1-introduction/</guid>
+      <description>Introduction Procedural programming In procedural programming, a program is divided into smaller parts called methods. These methods are the basic entities used to construct a program. One of the main advantages of procedural programming is code reusability. However, the implementation of a complex real-world scenario becomes a difficult and unwieldy task.
+Object-oriented programming Object-oriented programming, also referred to as OOP, is a programming paradigm that includes, or relies, on the concept of classes and objects.</description>
+    </item>
+    
+    <item>
+      <title>Python - Note1</title>
+      <link>https://angaoanzj.github.io/python/py-note1/</link>
+      <pubDate>Thu, 01 Jul 2021 16:32:28 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/py-note1/</guid>
+      <description>字符串 单引号‘ ’ ，双引号 &amp;quot; &amp;quot; , 三引号 &#39;&#39;&#39; &#39;&#39;&#39; 双引号中可以嵌套单引号，三引号中可以包含单引号和双引号
+空值 用None表示，在python中
+Python 允许同时为多个变量/对象赋值 a = b = c = 1 a, b, c = 1, 2, &amp;quot;liangdianshui&amp;quot; List &amp;gt;&amp;gt;&amp;gt; list = [&#39;1&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;] &amp;gt;&amp;gt;&amp;gt; list[:] [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;] append()添加，只能添加一个对象 list.extend(seq)追加list
+&amp;gt;&amp;gt;&amp;gt; list.extend([&#39;2&#39;,&#39;7&#39;]) &amp;gt;&amp;gt;&amp;gt; list [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;2&#39;, &#39;7&#39;] &amp;gt;&amp;gt;&amp;gt; list.append(&#39;6&#39;) &amp;gt;&amp;gt;&amp;gt; list [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;2&#39;, &#39;7&#39;, &#39;6&#39;] &amp;gt;&amp;gt;&amp;gt; list.append([&#39;3&#39;,&#39;6&#39;]) &amp;gt;&amp;gt;&amp;gt; list [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;2&#39;, &#39;7&#39;, &#39;6&#39;, [&#39;3&#39;, &#39;6&#39;]] del list[3] #删除list的元素</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://angaoanzj.github.io/python/pic/8.3-week2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/pic/8.3-week2/</guid>
+      <description>8.3 week2
+splunk
+user and entity behavior
+Capabilities
+a series of single line event
+create graph/reports</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://angaoanzj.github.io/python/pic/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/python/pic/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B/</guid>
+      <description>特征工程：
+特征抽取：</description>
+    </item>
+    
+  </channel>
+</rss>

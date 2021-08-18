@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqls on My New Hugo Site</title>
+    <link>https://angaoanzj.github.io/sql/</link>
+    <description>Recent content in Sqls on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jul 2021 13:34:10 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install</title>
+      <link>https://angaoanzj.github.io/sql/install_sql/</link>
+      <pubDate>Sun, 18 Jul 2021 13:34:10 +1000</pubDate>
+      
+      <guid>https://angaoanzj.github.io/sql/install_sql/</guid>
+      <description>安装mysql  下载：https://dev.mysql.com/downloads/mysql/     llan@192-168-1-132 ~ % mysql -u root -p zsh: command not found: mysql llan@192-168-1-132 ~ % cd /Users/llan/miniforge3/pkgs/jedi-0.18.0-py38h10201cd_2/lib/python3.8/site-packages/jedi/third_party/django-stubs/django-stubs/db/backends/mysql llan@192-168-1-132 mysql % vim ~/.bashrc llan@192-168-1-132 mysql % source ~/.bashrc llan@192-168-1-132 mysql % vim ~/.bash_profile llan@192-168-1-132 mysql % source ~/.bash_profile #添加：i,保存退出：:wq export PATH=$PATH:/usr/locol/mysql/bin export PATH=$PATH:/usr/local/mysql/support-files llan@192-168-1-132 mysql % mysql ERROR 1045 (28000): Access denied for user &#39;llan&#39;@&#39;localhost&#39; (using password: NO) llan@192-168-1-132 mysql % mysql -u root -p Enter password: Welcome to the MySQL monitor.</description>
+    </item>
+    
+  </channel>
+</rss>
