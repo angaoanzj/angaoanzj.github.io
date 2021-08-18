@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>leetcode on My New Hugo Site</title>
+    <title>leetcode on Ang Space</title>
     <link>https://angaoanzj.github.io/tags/leetcode/</link>
-    <description>Recent content in leetcode on My New Hugo Site</description>
+    <description>Recent content in leetcode on Ang Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jul 2021 14:03:24 +1000</lastBuildDate><atom:link href="https://angaoanzj.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
